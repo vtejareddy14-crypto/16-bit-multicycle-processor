@@ -1,0 +1,7 @@
+# simulation outputs
+*.out
+*.vcd
+*.log
+*.wlf
+transcript
+work/
