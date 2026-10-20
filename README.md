@@ -1,6 +1,6 @@
 # Simple 16-bit Processor in Verilog
 
-[![Simulation](https://github.com/vtejareddy14-crypto/simple-processor/actions/workflows/simulation.yml/badge.svg)](https://github.com/vtejareddy14-crypto/simple-processor/actions/workflows/simulation.yml)
+[![Simulation](https://github.com/vtejareddy14-crypto/16-bit-multicycle-processor/actions/workflows/simulation.yml/badge.svg)](https://github.com/vtejareddy14-crypto/16-bit-multicycle-processor/actions/workflows/simulation.yml)
 
 A multi-cycle 16-bit processor written in Verilog. It executes four instructions
 (`mv`, `mvt`, `add`, `sub`) over a single shared bus, controlled by a finite-state
@@ -68,7 +68,7 @@ and in T3 G is written back to r0.
 ## Repository Structure
 
 ```
-simple-processor/
+16-bit-multicycle-processor/
 ├── rtl/
 │   ├── proc.v              # top level: control FSM, bus multiplexer, adder/subtractor
 │   ├── regn.v              # 16-bit register with enable and async active-low reset
